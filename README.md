@@ -1,5 +1,6 @@
 ![historian](Dnz.png)
 # historian.py
+the python script that use wayback libary to check robots.txt history 
    
 ## Install requirements 
  ```bash
