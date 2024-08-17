@@ -1,3 +1,4 @@
 argparse
 wayback 
-datetime 
+datetime
+colorama
