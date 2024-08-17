@@ -1,4 +1,4 @@
-![historian](Dnz.png)
+![historian](output.png)
 # historian.py
 historian.py is python script that use wayback library to check robots.txt history   
 ## Install requirements 
