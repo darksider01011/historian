@@ -7,5 +7,5 @@
  ```
 ## Usage
  ```bash
- python3 dnz.py -d example.com
+ python3 historian.py -d fuzzer.cloud -f 20210610 -t 20240801
  ```
