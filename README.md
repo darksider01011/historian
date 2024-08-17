@@ -1,7 +1,6 @@
 ![historian](Dnz.png)
 # historian.py
-the python script that use wayback libary to check robots.txt history 
-   
+historian.py is python script that use wayback library to check robots.txt history   
 ## Install requirements 
  ```bash
  pip install -r requirements.txt
