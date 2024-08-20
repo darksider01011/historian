@@ -13,6 +13,11 @@ historian.py is python script that use wayback library to check robots.txt histo
  pip install -r requirements.txt
  ```
 ## Usage
+### robots
  ```bash
- python3 historian.py -d example.com -f 20210610 -t 20240801
+ python3 robots historian.py -d example.com -f 20210610 -t 20240801
  ```
+### sitemap
+```bash
+ python3 sitemap historian.py -d example.com -f 20210610 -t 20240801
+```
