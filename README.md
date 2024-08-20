@@ -8,7 +8,9 @@ historian.py is python script that use wayback library to check robots.txt and s
 
   robots          robots subcommand
   sitemap         sitemap subcommand
-
+  
+  options:
+  
   -d   example.com  Set target domain
   -f   20020501     From date
   -t   20240501     To date
