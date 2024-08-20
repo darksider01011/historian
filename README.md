@@ -3,7 +3,11 @@
 historian.py is python script that use wayback library to check robots.txt and sitmap.xml history   
 # options
 ```bash
-  -h   --help      show this help message and exit
+
+  positional arguments:
+  robots          robots subcommand
+  sitemap         sitemap subcommand
+
   -d   example.com  Set target domain
   -f   20020501     From date
   -t   20240501     To date
