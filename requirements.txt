@@ -2,3 +2,4 @@ argparse
 wayback 
 datetime
 colorama
+requests
