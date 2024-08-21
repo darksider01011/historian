@@ -1,8 +1,5 @@
 # historian.py
 historian.py is python script that use wayback library to check robots.txt and sitmap.xml history
-![Drag Racing](output/output1.png)
-![Drag Racing](output/output2.png)
-![Drag Racing](output/output3.png)
 
 # options
 ```bash
@@ -25,10 +22,13 @@ historian.py is python script that use wayback library to check robots.txt and s
  ```
 ## Usage
 ### robots
+![Drag Racing](output/output1.png)
+
  ```bash
  python3 robots historian.py -d example.com -f 20210610 -t 20240801
  ```
 ### sitemap
+![Drag Racing](output/output3.png)
 ```bash
  python3 sitemap historian.py -d example.com -f 20210610 -t 20240801
 ```
