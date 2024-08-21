@@ -27,7 +27,7 @@ historian.py is python script that use wayback library to check robots.txt and s
  ```bash
  python3 robots historian.py -d example.com -f 20210610 -t 20240801
  ```
-![Drag Racing](output/output1.png)
+![Drag Racing](output/output2.png)
  ```bash
  python3 robots historian.py -d example.com -f 20210610 -t 20240801 -r
  ```
