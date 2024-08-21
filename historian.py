@@ -8,7 +8,7 @@ from colorama import Fore, Style
 client = WaybackClient()
 
 # add parser object
-parser = argparse.ArgumentParser(description='historian.py is python script that use wayback library to check robots.txt and sitemap.xml history', prog='historian.py', epilog='Example: python3 historian.py sitemap -d amazon.com -f 20050103 -t 20050203')
+parser = argparse.ArgumentParser(description='historian.py is python script that use wayback library to check robots.txt and sitemap.xml history', prog='historian.py', epilog='Example: python3 historian.py sitemap -d example.com -f 20050103 -t 20050203')
 
 # add subparser object
 subparser = parser.add_subparsers(dest='command')
