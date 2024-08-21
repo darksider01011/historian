@@ -11,10 +11,10 @@ historian.py is python script that use wayback library to check robots.txt and s
   
   options:
   
-  -d   example.com  Set target domain
+  -d   example.com  Target domain
   -f   20020501     From date
   -t   20240501     To date
-  -r                Show response
+  -r                Response body
 ```
 ## Install requirements 
  ```bash
