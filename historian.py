@@ -33,7 +33,7 @@ def to(to_date):
 
 # add robots subparser
 robots = subparser.add_parser("robots", help='robots subcommand')
-robots.add_argument('-d', type=str, help='target domain', metavar='example.com', default=False, required=True)
+robots.add_argument('-d', type=str, help='Target domain', metavar='example.com', default=False, required=True)
 robots.add_argument('-f', type=fromm, help='From date', metavar='20020501', default=False, required=True)
 robots.add_argument('-t', type=to, help='To date', metavar='20240501', default=False, required=True)
 robots.add_argument('-r', help='Response body', action='store_true')
