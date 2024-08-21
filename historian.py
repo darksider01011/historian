@@ -13,6 +13,7 @@ parser = argparse.ArgumentParser(description='historian.py is python script that
 # add subparser object
 subparser = parser.add_subparsers(dest='command')
 
+# from date input validation
 def fromm(from_date):
     date = str(from_date)
     datee = len(date)
@@ -20,6 +21,8 @@ def fromm(from_date):
         raise argparse.ArgumentTypeError('invalid from date format.   example: 20150510')
     else:
         return date
+        
+# to date input validation
 def to(to_date):
     date = str(to_date)
     datee = len(date)
