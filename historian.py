@@ -33,17 +33,17 @@ def to(to_date):
 
 # add robots subparser
 robots = subparser.add_parser("robots", help='robots subcommand')
-robots.add_argument('-d', type=str, help='Set target domain', metavar='example.com', default=False, required=True)
+robots.add_argument('-d', type=str, help='target domain', metavar='example.com', default=False, required=True)
 robots.add_argument('-f', type=fromm, help='From date', metavar='20020501', default=False, required=True)
 robots.add_argument('-t', type=to, help='To date', metavar='20240501', default=False, required=True)
-robots.add_argument('-r', help='Show response body', action='store_true')
+robots.add_argument('-r', help='Response body', action='store_true')
 
 # add sitemap subparser
 sitemap = subparser.add_parser("sitemap", help='sitemap subcommand')
-sitemap.add_argument('-d', type=str, help='Set target domain', metavar='example.com', default=False, required=True)
+sitemap.add_argument('-d', type=str, help='Target domain', metavar='example.com', default=False, required=True)
 sitemap.add_argument('-f', type=fromm, help='From date', metavar='20020501', default=False, required=True)
 sitemap.add_argument('-t', type=to, help='To date', metavar='20240501', default=False, required=True)
-sitemap.add_argument('-r', help='Show response body', action='store_true')
+sitemap.add_argument('-r', help='Response body', action='store_true')
 
 # parse argument
 args = parser.parse_args()
