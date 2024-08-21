@@ -1,5 +1,9 @@
 # historian.py
-historian.py is python script that use wayback library to check robots.txt and sitmap.xml history   
+historian.py is python script that use wayback library to check robots.txt and sitmap.xml history
+![Drag Racing](output1.png)
+![Drag Racing](output2.png)
+![Drag Racing](output3.png)
+
 # options
 ```bash
 
