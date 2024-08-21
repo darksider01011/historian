@@ -1,5 +1,5 @@
 # historian.py
-historian.py is python script that use wayback library to check robots.txt and sitmap.xml history
+historian.py is python script that use wayback library to check robots.txt and sitemap.xml history
 
 ## options
 ```bash
